@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#E6A23C"/>
+  <!-- X-ray film frame -->
+  <rect x="14" y="14" width="36" height="36" rx="2" fill="none" stroke="white" stroke-width="2"/>
+  <!-- Inner scan lines -->
+  <path d="M20 20H44M20 28H44M20 36H44M20 44H44" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <!-- Cross marker -->
+  <path d="M44 44L52 52" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,67 @@
+/* Element Plus CSS Variables */
+:root {
+  --el-color-primary: #409eff;
+  --el-color-success: #67c23a;
+  --el-color-warning: #e6a23c;
+  --el-color-danger: #f56c6c;
+  --el-color-info: #909399;
+
+  --el-color-primary-light-3: #79bbff;
+  --el-color-primary-light-5: #a0cfff;
+  --el-color-primary-light-7: #c8e6ff;
+  --el-color-primary-light-8: #d9ecff;
+  --el-color-primary-light-9: #ecf5ff;
+  --el-color-primary-dark-2: #337ecc;
+
+  /* Sidebar */
+  --sidebar-width: 210px;
+  --sidebar-collapsed-width: 64px;
+  --sidebar-bg-color: #304156;
+  --sidebar-text-color: #bfcbd9;
+  --sidebar-hover-bg-color: #263445;
+  --sidebar-active-bg-color: #409eff;
+  --sidebar-active-text-color: #ffffff;
+
+  /* Header */
+  --header-height: 56px;
+  --header-bg-color: #ffffff;
+  --header-border-color: #e6e6e6;
+
+  /* Content */
+  --content-bg-color: #f0f2f5;
+  --page-bg-color: #ffffff;
+
+  /* Border */
+  --border-color: #dcdfe6;
+  --border-radius: 4px;
+
+  /* Text */
+  --text-color-primary: #303133;
+  --text-color-regular: #606266;
+  --text-color-secondary: #909399;
+  --text-color-placeholder: #c0c4cc;
+
+  /* Font */
+  --font-size-base: 14px;
+  --font-size-small: 12px;
+  --font-size-large: 16px;
+  --font-weight-primary: 400;
+  --font-weight-secondary: 500;
+  --font-weight-bold: 600;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-base: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Shadow */
+  --shadow-base: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  --shadow-light: 0 2px 12px rgba(0, 0, 0, 0.1);
+  --shadow-dark: 0 2px 12px rgba(0, 0, 0, 0.15);
+
+  /* Transition */
+  --transition-duration: 0.3s;
+  --transition-timing-function: ease;
+}

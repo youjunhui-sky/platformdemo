@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#F56C6C"/>
+  <!-- Pill/medicine icon -->
+  <path d="M32 16L38 26H26L32 16Z" fill="white"/>
+  <path d="M26 26H38V44C38 46.2 36.2 48 34 48H30C27.8 48 26 46.2 26 44V26Z" fill="white"/>
+  <path d="M32 26V44" stroke="#F56C6C" stroke-width="2"/>
+  <path d="M20 32H44" stroke="white" stroke-width="2" stroke-dasharray="4 2" opacity="0.5"/>
+</svg>

@@ -1,0 +1,16 @@
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { DictController } from './dict.controller';
+import { DictService } from './dict.service';
+import { DictType } from '../../../entities/platform/dict-type.entity';
+import { DictInfo } from '../../../entities/platform/dict-info.entity';
+
+@Module({
+  imports: [
+    TypeOrmModule.forFeature([DictType, DictInfo]),
+  ],
+  controllers: [DictController],
+  providers: [DictService],
+  exports: [DictService],
+})
+export class DictModule {}
