@@ -9,13 +9,17 @@ NProgress.configure({ showSpinner: false })
 
 const whiteList = ['/login', '/404', '/403']
 
+// Load menus only once
+let menusLoaded = false
+
 // Load menus if not already loaded
 const loadMenusIfNeeded = async () => {
   const permissionStore = usePermissionStore()
-  if (!permissionStore.menus || permissionStore.menus.length === 0) {
+  if (!menusLoaded || !permissionStore.menus || permissionStore.menus.length === 0) {
     try {
       const res = await authApi.getUserMenus()
       permissionStore.setMenus(res.data?.data || res.data || [])
+      menusLoaded = true
     } catch (e) {
       console.error('Failed to load menus:', e)
     }
